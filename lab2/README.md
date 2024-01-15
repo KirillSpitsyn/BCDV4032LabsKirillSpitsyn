@@ -1,1 +1,1 @@
-Quiz is in `Lab2_Quiz.pdf` file
+Quiz answers are in `Lab2_Quiz.pdf` file
