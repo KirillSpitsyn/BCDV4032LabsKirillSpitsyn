@@ -6,7 +6,7 @@ To use Fission, we need Kubectl and Helm, as you can see, I make sure that Helm 
 Pool size 3 means that 3 running pods can accept requests to your fission functions. Then, I download the code for a function that prints a “Hello World” message to the console. After that, I created a fission function using code hello.js
 I downloaded 1 step above and node js environment. The function is created successfully. Then I used the fission test command to call the function, and it successfully returned a Hello World message to the console. 
 
-`Argo-cd Demonstration:`
+`Argo-cd Video Demonstration:`
 
 https://github.com/KirillSpitsyn/BCDV4032LabsKirillSpitsyn/assets/72778161/2c51f01a-5925-4348-9aff-ef86f0da1bfb
 
