@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dapp
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: dapp
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: dapp
+    spec:
+      containers:
+        - image: schadokar/eth-server:1.0.0
+          name: dapp
+          ports:
+            - containerPort: 4000
+          resources: {}
+      restartPolicy: Always
+status: {}

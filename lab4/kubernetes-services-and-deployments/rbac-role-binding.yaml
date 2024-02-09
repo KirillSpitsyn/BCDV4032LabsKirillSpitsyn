@@ -1,0 +1,11 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: dapp-role-binding
+subjects:
+- kind: ServiceAccount
+  name: dapp-service-account
+roleRef:
+  kind: Role
+  name: user-role
+  apiGroup: rbac.authorization.k8s.io
