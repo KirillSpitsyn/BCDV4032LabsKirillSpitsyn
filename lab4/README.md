@@ -1,4 +1,4 @@
-##Lab 4
+Lab 4
 
 `docker-Ethereum folder contains files for lab 4 docker-Ethereum dApp`
 
